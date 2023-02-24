@@ -36,5 +36,9 @@
       "prettier --write",
       "eslint --quiet"
     ]
+  },
+  "dependencies": {
+    "fastify": "^4.13.0",
+    "mongoose": "^6.10.0"
   }
 }
