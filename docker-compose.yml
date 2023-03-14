@@ -1,0 +1,11 @@
+# Development setup (For production see Dockerfile)
+version: "3.2"
+services:
+  db:
+    container_name: fastapi_db
+    image: mongo:3.6.21
+    ports:
+      - "27017:27017"
+    volumes:
+      - "./db:/data/db"
+
